@@ -4,4 +4,4 @@ name=devops
 echo a = $a
 echo name = ${name}
 DATE=$(date +%F)
-echo today date is ${date}
+echo today date is ${DATE}
