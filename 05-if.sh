@@ -14,7 +14,7 @@ then
     echo fruit doesnot exist
   fi
 
-if [ "$quantity" -gt "100" ]; then
+if [ "$quantity" -gt 100 ]; then
 echo mango price - 0.5$
 else
 echo mango price - 1$
