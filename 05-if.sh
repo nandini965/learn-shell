@@ -19,3 +19,7 @@ echo mango price - 0.5$
 else
 echo mango price - 1$
 fi
+
+if [ -z "$fruit_name" ]; then
+  echo input is missing
+fi
